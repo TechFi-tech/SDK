@@ -13,6 +13,10 @@
           "maxLength": 191,
           "pattern": "^([^,]|$)"
         },
+        "address": {
+          "type": "string",
+          "maxLength": 191
+        },
         "email": {
           "type": "string",
           "minLength": 1,
@@ -91,14 +95,29 @@
                 "maxLength": 191
               },
               "slug": {
-                "type": ["string", "null"],
+                "type": [
+                  "string",
+                  "null"
+                ],
                 "maxLength": 191
               }
             },
             "anyOf": [
-              { "required": ["id"] },
-              { "required": ["name"] },
-              { "required": ["slug"] }
+              {
+                "required": [
+                  "id"
+                ]
+              },
+              {
+                "required": [
+                  "name"
+                ]
+              },
+              {
+                "required": [
+                  "slug"
+                ]
+              }
             ]
           },
           {
@@ -125,7 +144,10 @@
                 "maxLength": 191
               },
               "slug": {
-                "type": ["string", "null"],
+                "type": [
+                  "string",
+                  "null"
+                ],
                 "maxLength": 191
               },
               "members": {
@@ -133,9 +155,21 @@
               }
             },
             "anyOf": [
-              { "required": ["id"] },
-              { "required": ["name"] },
-              { "required": ["slug"] }
+              {
+                "required": [
+                  "id"
+                ]
+              },
+              {
+                "required": [
+                  "name"
+                ]
+              },
+              {
+                "required": [
+                  "slug"
+                ]
+              }
             ]
           },
           {

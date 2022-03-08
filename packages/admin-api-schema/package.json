@@ -1,5 +1,5 @@
 {
-  "name": "@tryghost/admin-api-schema",
+  "name": "@techfi/admin-api-schema",
   "version": "2.11.0",
   "repository": "https://github.com/TryGhost/SDK/tree/master/packages/admin-api-schema",
   "author": "Ghost Foundation",
