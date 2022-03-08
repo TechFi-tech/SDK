@@ -1,6 +1,6 @@
 {
   "name": "@techfi/admin-api-schema",
-  "version": "2.11.1",
+  "version": "2.11.2",
   "repository": "https://github.com/tech-fi/SDK/tree/member-develop/packages/admin-api-schema",
   "author": "Ghost Foundation",
   "license": "MIT",
