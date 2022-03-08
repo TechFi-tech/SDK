@@ -6,7 +6,7 @@
   "definitions": {
     "member": {
       "type": "object",
-      "additionalProperties": false,
+      "additionalProperties": true,
       "properties": {
         "name": {
           "type": "string",
