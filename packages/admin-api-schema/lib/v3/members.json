@@ -6,12 +6,16 @@
   "definitions": {
     "member": {
       "type": "object",
-      "additionalProperties": true,
+      "additionalProperties": false,
       "properties": {
         "name": {
           "type": "string",
           "maxLength": 191,
           "pattern": "^([^,]|$)"
+        },
+        "address": {
+          "type": "string",
+          "maxLength": 191
         },
         "email": {
           "type": "string",
